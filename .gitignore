@@ -218,3 +218,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Generated computational-lab artifacts
+outputs/*
+!outputs/.gitkeep
+validation/exports/
+validation/review/
+validation/*.html
+validation/*.log
+validation/executed_*.ipynb
+validation/*.png
+
+# Instructor-only development and review materials (keep local)
+INSTRUCTOR_NOTES.md
+build_notebooks.py
+validation/
+.github/workflows/validate.yml
